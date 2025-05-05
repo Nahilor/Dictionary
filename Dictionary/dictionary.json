@@ -1,0 +1,82 @@
+{
+    "Aardvark": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A nocturnal burrowing mammal native to Africa"
+            ]
+        }
+    },
+    "Banana": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A long curved fruit with a yellow skin"
+            ]
+        }
+    },
+    "Cat": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A small domesticated carnivorous mammal"
+            ]
+        }
+    },
+    "Dog": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A domesticated carnivorous mammal, typically known for its loyalty to humans"
+            ]
+        }
+    },
+    "Elephant": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A large mammal with a trunk, native to Africa and Asia"
+            ]
+        }
+    },
+    "Frog": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A small amphibious animal that typically has a smooth, moist skin"
+            ]
+        }
+    },
+    "Giraffe": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A tall African mammal with a very long neck"
+            ]
+        }
+    },
+    "Horse": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A large domesticated mammal often used for riding and racing"
+            ]
+        }
+    },
+    "Ice": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "Frozen water"
+            ]
+        }
+    },
+    "Jaguar": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A large, wild cat native to the Americas"
+            ]
+        }
+    }
+}

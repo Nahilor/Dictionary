@@ -18,5 +18,99 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Dictionary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="data\a.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\b.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\c.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\d.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\e.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\f.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\g.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\h.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\i.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\j.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\k.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\l.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\m.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\n.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\o.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\p.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\q.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\r.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\s.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\t.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\u.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\v.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\w.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\x.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\y.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\z.json">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data\filter_words.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Dictionary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

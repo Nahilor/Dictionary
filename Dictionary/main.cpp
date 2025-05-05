@@ -1,6 +1,6 @@
 ﻿#include <wx/wx.h>
-
-
+#include "Dictionary.h"
+#include <map>
 
 class MyApp : public wxApp
 {
@@ -10,7 +10,6 @@ public:
 
 class MyFrame : public wxFrame {
 public:
-	
     MyFrame() : wxFrame(nullptr, wxID_ANY, "Dictionary", wxDefaultPosition, wxSize(400, 500))
     {
         wxPanel* mainPnl = new wxPanel(this);
@@ -44,14 +43,11 @@ public:
     }
 private:
     wxTextCtrl* searchBar;
+    std::vector<WordEntry> wordEntries = parseWordMeaningsFromFile("dictionary.json");
     void OnSearch(wxCommandEvent& event);
 };
 
-
-
 wxIMPLEMENT_APP(MyApp);
-
-
 
 bool MyApp::OnInit()
 {
@@ -62,7 +58,14 @@ bool MyApp::OnInit()
 
 void MyFrame::OnSearch(wxCommandEvent& event)
 {
-	
 	wxString word = searchBar->GetValue();
-    wxMessageBox(word);
+    wxMessageBox(getWordDefinition(word.ToStdString()));
+	
+	if (wordEntries.empty()) {
+		wxMessageBox("Failed to load dictionary data.");
+		return;
+	}
+
+    int index = binarySearch(wordEntries, word.ToStdString());
+	
 }
