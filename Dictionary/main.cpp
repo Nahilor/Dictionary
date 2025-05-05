@@ -26,7 +26,11 @@ public:
         vbox->Add(hbox, 0, wxEXPAND | wxALL, 10);  
 
 		wxPanel* resultPanel = new wxPanel(mainPnl);
-		resultPanel->SetBackgroundColour(wxColour(255, 0, 255));
+		resultPanel->SetBackgroundColour(wxColour(255, 255, 255));
+        
+		resultLabel = new wxStaticText(resultPanel, wxID_ANY, "");
+		resultLabel->SetForegroundColour(wxColour(0, 0, 0));
+		resultLabel->SetFont(wxFont(16, wxFONTFAMILY_DEFAULT, wxFONTSTYLE_NORMAL, wxFONTWEIGHT_NORMAL));
 
         vbox->Add(resultPanel, 1, wxEXPAND | wxALL, 10);
 
@@ -45,6 +49,7 @@ private:
     wxTextCtrl* searchBar;
     std::vector<WordEntry> wordEntries = parseWordMeaningsFromFile("dictionary.json");
     void OnSearch(wxCommandEvent& event);
+    wxStaticText* resultLabel;
 };
 
 wxIMPLEMENT_APP(MyApp);
@@ -59,13 +64,18 @@ bool MyApp::OnInit()
 void MyFrame::OnSearch(wxCommandEvent& event)
 {
 	wxString word = searchBar->GetValue();
-    wxMessageBox(getWordDefinition(word.ToStdString()));
-	
 	if (wordEntries.empty()) {
 		wxMessageBox("Failed to load dictionary data.");
 		return;
 	}
-
     int index = binarySearch(wordEntries, word.ToStdString());
-	
+	if (index != -1) {
+		resultLabel->SetLabel(wordEntries[index].meaning);
+	}
+	else if (word.IsEmpty()) {
+		wxMessageBox("Please enter a word to search.");
+	}
+	else {
+		wxMessageBox("Word not found in the dictionary.");
+	}
 }

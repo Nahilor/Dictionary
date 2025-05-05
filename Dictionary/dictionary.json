@@ -1,4 +1,12 @@
 {
+    "Acorn": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "The nut of an oak tree, often eaten by squirrels"
+            ]
+        }
+    },
     "Aardvark": {
         "MEANINGS": {
             "1": [
@@ -15,11 +23,27 @@
             ]
         }
     },
+    "Ball": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A spherical object used in many games and sports"
+            ]
+        }
+    },
     "Cat": {
         "MEANINGS": {
             "1": [
                 "Noun",
                 "A small domesticated carnivorous mammal"
+            ]
+        }
+    },
+    "Cloud": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A visible mass of condensed water vapor floating in the atmosphere"
             ]
         }
     },
@@ -31,11 +55,35 @@
             ]
         }
     },
+    "Desk": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A piece of furniture used for writing or working at"
+            ]
+        }
+    },
+    "Eagle": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A large bird of prey with keen sight"
+            ]
+        }
+    },
     "Elephant": {
         "MEANINGS": {
             "1": [
                 "Noun",
                 "A large mammal with a trunk, native to Africa and Asia"
+            ]
+        }
+    },
+    "Fish": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A cold-blooded vertebrate that lives in water and has fins"
             ]
         }
     },
@@ -55,6 +103,22 @@
             ]
         }
     },
+    "Guitar": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A musical instrument with six strings, usually played with the fingers or a pick"
+            ]
+        }
+    },
+    "Hammer": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A tool with a heavy head used for driving nails or breaking things"
+            ]
+        }
+    },
     "Horse": {
         "MEANINGS": {
             "1": [
@@ -71,11 +135,243 @@
             ]
         }
     },
+    "Island": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A piece of land surrounded by water"
+            ]
+        }
+    },
     "Jaguar": {
         "MEANINGS": {
             "1": [
                 "Noun",
                 "A large, wild cat native to the Americas"
+            ]
+        }
+    },
+    "Jacket": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A piece of clothing worn on the upper body"
+            ]
+        }
+    },
+    "Kangaroo": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A large marsupial with powerful hind legs, native to Australia"
+            ]
+        }
+    },
+    "King": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "The male ruler of a nation or territory"
+            ]
+        }
+    },
+    "Lamp": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A device used for producing light"
+            ]
+        }
+    },
+    "Lion": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A large carnivorous feline animal, often called the king of the jungle"
+            ]
+        }
+    },
+    "Map": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A representation of an area, showing geographical features"
+            ]
+        }
+    },
+    "Monkey": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A small to medium-sized primate with a long tail"
+            ]
+        }
+    },
+    "Nest": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A structure built by birds to lay eggs in"
+            ]
+        }
+    },
+    "Narwhal": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A marine mammal known for its long spiral tusk"
+            ]
+        }
+    },
+    "Oven": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A chamber used for cooking food by heating"
+            ]
+        }
+    },
+    "Penguin": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A flightless bird that swims, found in the Southern Hemisphere"
+            ]
+        }
+    },
+    "Pillow": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A soft cushion used to support the head while sleeping"
+            ]
+        }
+    },
+    "Queen": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A female ruler or monarch"
+            ]
+        }
+    },
+    "Rabbit": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A small mammal with long ears and soft fur"
+            ]
+        }
+    },
+    "Rainbow": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A colorful arc in the sky caused by refraction of light"
+            ]
+        }
+    },
+    "Shark": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A large marine predator with sharp teeth"
+            ]
+        }
+    },
+    "Sun": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "The star at the center of the solar system"
+            ]
+        }
+    },
+    "Tiger": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A large wild cat known for its strength and orange coat with black stripes"
+            ]
+        }
+    },
+    "Tree": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A perennial plant with a tall, woody stem"
+            ]
+        }
+    },
+    "Umbrella": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A device used for protection against rain or sun"
+            ]
+        }
+    },
+    "Vase": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A container used for holding flowers or decorations"
+            ]
+        }
+    },
+    "Vulture": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A large bird of prey known for scavenging carcasses"
+            ]
+        }
+    },
+    "Whale": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A large marine mammal"
+            ]
+        }
+    },
+    "Xenon": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A chemical element with atomic number 54, a noble gas"
+            ]
+        }
+    },
+    "Xylophone": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A musical instrument made of wooden bars struck with mallets"
+            ]
+        }
+    },
+    "Yak": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A large domesticated wild ox with shaggy hair"
+            ]
+        }
+    },
+    "Zebra": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A large African mammal with distinctive black and white stripes"
+            ]
+        }
+    },
+    "Zipper": {
+        "MEANINGS": {
+            "1": [
+                "Noun",
+                "A fastening device used to close openings, such as in clothing or bags"
             ]
         }
     }
